@@ -5,7 +5,7 @@ def verificar_indice(indice_poluicao):
         print('Industrias de 1 grau devem suspender as atividades!')
     elif 0.31 <= indice_poluicao <= 0.40:
         print('Industrias de 1 e 2 grau devem suspender as atividades!')
-    elif indice_poluicao > 0.41:
+    else:
         print('Todos grupos precisaram suspender as ativdades!')
 
 indice_poluicao = float(input("Informe o indice de poluição: "))
